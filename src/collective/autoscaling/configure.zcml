@@ -34,7 +34,7 @@
       
     <plone:behavior
         title="Image Downsampling Behavior"
-        description="Enable image downsampling feature."
+        description="Enable image downsampling feature (collective.autoscaling)."
         provides=".behavior.IResampleBehaviorLayer"
         for="plone.dexterity.interfaces.IDexterityContent"
     />
